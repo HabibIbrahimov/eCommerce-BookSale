@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4tZEY+w/Xlsis4VEjTOd2wMOgaoLLV5ILgiRtNzpCeI=",
+  "Hash": "+KAhY+5FRukEeX0Ijm6mEcbytXXzjcLqBkC3Es3AYaI=",
   "Source": "BookSaleWeb",
   "BasePath": "_content/BookSaleWeb",
   "Mode": "Default",
@@ -865,6 +865,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
+    },
+    {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\css\\bootswatch.css",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "css/bootswatch.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatch.css"
     },
     {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\css\\site.css",
