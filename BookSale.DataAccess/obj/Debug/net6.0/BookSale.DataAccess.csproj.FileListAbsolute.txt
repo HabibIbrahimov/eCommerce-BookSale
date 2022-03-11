@@ -1,0 +1,17 @@
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\BookSale.DataAccess.csproj.AssemblyReference.cache
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\BookSale.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\BookSale.DataAccess.AssemblyInfoInputs.cache
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\BookSale.DataAccess.AssemblyInfo.cs
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\BookSale.DataAccess.csproj.CoreCompileInputs.cache
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\BookSale.DataAccess.deps.json
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\BookSale.DataAccess.runtimeconfig.json
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\BookSale.DataAccess.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\BookSale.DataAccess.pdb
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\BookSale.Models.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\BookSale.Models.pdb
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\BookSale.DataAccess.csproj.CopyComplete
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\BookSale.DataAccess.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\refint\BookSale.DataAccess.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\BookSale.DataAccess.pdb
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\BookSale.DataAccess.genruntimeconfig.cache
+B:\Asp.Net\BookSale\BookSale.DataAccess\obj\Debug\net6.0\ref\BookSale.DataAccess.dll

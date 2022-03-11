@@ -1,0 +1,12 @@
+B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\BookSale.Models.deps.json
+B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\BookSale.Models.dll
+B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\BookSale.Models.pdb
+B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\BookSale.Models.csproj.AssemblyReference.cache
+B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\BookSale.Models.GeneratedMSBuildEditorConfig.editorconfig
+B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\BookSale.Models.AssemblyInfoInputs.cache
+B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\BookSale.Models.AssemblyInfo.cs
+B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\BookSale.Models.csproj.CoreCompileInputs.cache
+B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\BookSale.Models.dll
+B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\refint\BookSale.Models.dll
+B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\BookSale.Models.pdb
+B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\ref\BookSale.Models.dll
