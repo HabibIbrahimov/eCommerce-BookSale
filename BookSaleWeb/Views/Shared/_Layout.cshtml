@@ -17,7 +17,7 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-				@await Component.InvokeAsync("Header");
+		@await Component.InvokeAsync("Header");
 				<!-- Header End -->
 
 				<!-- Menu -->
@@ -59,6 +59,7 @@
 			<script src="~/assets/js/jquery.scrolly.min.js"></script>
 			<script src="~/assets/js/jquery.scrollex.min.js"></script>
 			<script src="~/assets/js/main.js"></script>
+			<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 			 @await RenderSectionAsync("Scripts", required: false)
 	</body>
 </html>
