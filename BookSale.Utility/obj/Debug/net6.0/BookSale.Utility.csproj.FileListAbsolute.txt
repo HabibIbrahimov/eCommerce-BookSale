@@ -92,9 +92,6 @@ B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.AspNetCore.
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebSockets.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebUtilities.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.CSharp.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Memory.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Binder.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.dll
@@ -105,8 +102,6 @@ B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Features.dll
@@ -122,19 +117,15 @@ B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Configuration.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Console.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Debug.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventLog.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventSource.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.ObjectPool.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.Primitives.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Extensions.WebEncoders.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.JSInterop.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\Microsoft.Net.Http.Headers.dll
@@ -164,7 +155,6 @@ B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\System.Data.DataSetEx
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\System.Data.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\System.Diagnostics.Contracts.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\System.Diagnostics.Debug.dll
-B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\System.Diagnostics.DiagnosticSource.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\System.Diagnostics.EventLog.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\System.Diagnostics.FileVersionInfo.dll
 B:\Asp.Net\BookSale\BookSale.Utility\bin\Debug\net6.0\refs\System.Diagnostics.Process.dll

@@ -559,12 +559,3 @@ B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 B:\Asp.Net\BookSale\BookSaleWeb\obj\Debug\net6.0\BookSaleWeb.MvcApplicationPartsAssemblyInfo.cs
-B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\EntityFramework.SqlServer.dll
-B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\EntityFramework.dll
-B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\System.CodeDom.dll
-B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\System.Data.SqlClient.dll
-B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
