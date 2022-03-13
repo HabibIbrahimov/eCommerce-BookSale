@@ -16,7 +16,6 @@ B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.A
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
-B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.dll
@@ -53,7 +52,6 @@ B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.H
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Identity.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
-B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Metadata.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
@@ -288,3 +286,5 @@ B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\System.Xml.XPath.XDocu
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\WindowsBase.dll
 B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\BookSale.Models.runtimeconfig.json
 B:\Asp.Net\BookSale\BookSale.Models\obj\Debug\net6.0\BookSale.Models.genruntimeconfig.cache
+B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.dll
+B:\Asp.Net\BookSale\BookSale.Models\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Metadata.dll

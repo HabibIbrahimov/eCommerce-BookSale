@@ -21,7 +21,6 @@ B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCo
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
-B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.dll
@@ -31,8 +30,6 @@ B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCo
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cors.dll
-B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -58,7 +55,6 @@ B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCo
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Identity.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
-B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Metadata.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
@@ -117,8 +113,6 @@ B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensio
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Http.dll
-B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
-B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Configuration.dll
@@ -291,3 +285,9 @@ B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\System.Xml.XmlSeri
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\System.Xml.XPath.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\System.Xml.XPath.XDocument.dll
 B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\WindowsBase.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.dll
+B:\Asp.Net\BookSale\BookSale.DataAccess\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Metadata.dll

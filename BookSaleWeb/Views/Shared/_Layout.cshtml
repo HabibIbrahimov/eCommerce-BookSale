@@ -23,6 +23,8 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<h2>Menu</h2>
+						
+						<partial name="_LoginPartial"/>
 						<ul>
 							<li><a asp-area="Customer" asp-controller="Home" asp-action="Index" class="active">Home</a></li>
 
@@ -45,6 +47,7 @@
 
 							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
+						
 					</nav>
 <partial name="_Notification"/>
 @RenderBody()
