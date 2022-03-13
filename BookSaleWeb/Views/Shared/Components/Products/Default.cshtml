@@ -8,11 +8,11 @@
 					 <span class="image">
 					  <img src="@product.ImageUrl" alt="" />
 				       </span>
-					    <a href="product-details.html">
+					    <a asp-action="Details" asp-route-id="@product.Id">
 						 <h2>@product.Title</h2>
-						  <h3>@product.Author</h3>
-						   <p><del>@product.ListPrice.ToString("0.00")</del> <strong>@product.Price100.ToString("0.00")</strong></p>
-
+						  <h3> by @product.Author</h3>
+						   <p><del>@product.ListPrice.ToString("0.00")</del> 
+							   <strong>@product.Price100.ToString("0.00")</strong></p>
 							 </a>
 							  </article>      
 	}
