@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M2QZepUfMjp+rMULRs4LPkzIEuTIQkvf7VSVVwhIDfk=",
+  "Hash": "tx+y01VWXqH3OaLinOATN/RMP0Qwj3rHgQzkgH2O8jo=",
   "Source": "BookSaleWeb",
   "BasePath": "_content/BookSaleWeb",
   "Mode": "Default",
@@ -799,6 +799,23 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\15e01967-693e-4952-bba1-c6381a94631a.jpg"
     },
     {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\products\\1d23cfbb-310a-4d85-a71d-83ff6d7c7999.jpg",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/products/1d23cfbb-310a-4d85-a71d-83ff6d7c7999.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\1d23cfbb-310a-4d85-a71d-83ff6d7c7999.jpg"
+    },
+    {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\products\\3448e691-2788-4569-b701-f87637c84448.jpg",
       "SourceId": "BookSaleWeb",
       "SourceType": "Discovered",
@@ -814,6 +831,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\3448e691-2788-4569-b701-f87637c84448.jpg"
+    },
+    {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\products\\587ff861-bd64-4b4c-973a-cbd7614ceb68.jpg",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/products/587ff861-bd64-4b4c-973a-cbd7614ceb68.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\587ff861-bd64-4b4c-973a-cbd7614ceb68.jpg"
+    },
+    {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\products\\c14e69c2-fcd5-4d5a-891f-efd3fb245aea.jpg",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/products/c14e69c2-fcd5-4d5a-891f-efd3fb245aea.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\c14e69c2-fcd5-4d5a-891f-efd3fb245aea.jpg"
     },
     {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\slider-image-1-1920x700.jpg",
