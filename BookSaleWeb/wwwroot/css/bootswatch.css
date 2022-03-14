@@ -2862,7 +2862,7 @@ textarea.form-control-lg {
     .form-floating > label {
         position: absolute;
         top: 0;
-        left: 0;
+        left: 30px;
         height: 100%;
         padding: 1rem 1.5rem;
         pointer-events: none;
