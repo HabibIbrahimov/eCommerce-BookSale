@@ -35,6 +35,7 @@
       "BookSale.Utility/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0-rc.1.21452.15",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.0-preview.2.21154.6",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.3",
           "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.0-preview.1.22076.6",
@@ -136,9 +137,9 @@
           "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "6.0.0.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "6.0.0.0",
           "Microsoft.Extensions.Features": "6.0.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions.Reference": "6.0.0.0",
           "Microsoft.Extensions.FileProviders.Composite": "6.0.0.0",
-          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded.Reference": "6.0.0.0",
           "Microsoft.Extensions.FileProviders.Physical": "6.0.0.0",
           "Microsoft.Extensions.FileSystemGlobbing": "6.0.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "6.0.0.0",
@@ -430,6 +431,26 @@
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Identity.UI/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0-preview.2.21154.6",
+          "Microsoft.Extensions.Identity.Stores": "6.0.0-rc.1.21452.15"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.Views.V4.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          },
+          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.Views.V4.dll": {},
+          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.3": {
@@ -1528,6 +1549,16 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.1.22076.8"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0-preview.2.21154.6"
         }
       },
       "Microsoft.Extensions.Identity.Core/6.0.0-rc.1.21452.15": {
@@ -3541,7 +3572,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions.Reference/6.0.0.0": {
         "compile": {
           "Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         },
@@ -3553,7 +3584,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.FileProviders.Embedded/6.0.0.0": {
+      "Microsoft.Extensions.FileProviders.Embedded.Reference/6.0.0.0": {
         "compile": {
           "Microsoft.Extensions.FileProviders.Embedded.dll": {}
         },
@@ -4711,6 +4742,13 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.0-rc.1.21452.15",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.6.0.0-rc.1.21452.15.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Identity.UI/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bB+jwtFpTXDrWdVdT2LQ0nAn8KK4bLWR16DDRisHg2YJTD95D4XdxiJqXY3A5yeDn8FtWlDQjBJ/aLls87vdaQ==",
+      "path": "microsoft.aspnetcore.identity.ui/6.0.0-preview.2.21154.6",
+      "hashPath": "microsoft.aspnetcore.identity.ui.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.3": {
       "type": "package",
       "serviceable": true,
@@ -5004,6 +5042,20 @@
       "sha512": "sha512-TD5QHg98m3+QhgEV1YVoNMl5KtBw/4rjfxLHO0e/YV9bPUBDKntApP4xdrVtGgCeQZHVfC2EXIGsdpRNrr87Pg==",
       "path": "microsoft.extensions.dependencymodel/6.0.0",
       "hashPath": "microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YFFoSlxkCTie4AqZ1TPizFLKV76WIxi8VIspZH5z64x+vC/ftpFAFHesMQjy1TceEJoCTwF0uJpbFsYEoIBtWg==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0-preview.2.21154.6",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Hkfv4ooa1sqStmWgDpAZxGws8Gs6NjbINuehq3nkHfQLtfE2UFRvJfQeLP6qAhYmmvifBP6AqB675jRnNFYFQ==",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.0-preview.2.21154.6",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.0-preview.2.21154.6.nupkg.sha512"
     },
     "Microsoft.Extensions.Identity.Core/6.0.0-rc.1.21452.15": {
       "type": "package",
@@ -6420,7 +6472,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0.0": {
+    "Microsoft.Extensions.FileProviders.Abstractions.Reference/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6430,7 +6482,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.FileProviders.Embedded/6.0.0.0": {
+    "Microsoft.Extensions.FileProviders.Embedded.Reference/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bi68pwqYs4qLZDTuuv1zKm5fVybV5QXuR6VAjGJAdfNq3Q+D+9Z8AV6/QNQcEs8sT//3sTaUVxLBcC2d/bt5xg==",
+  "dgSpecHash": "VZKIcpJM8UT86DrcmpL7ASUQGCpy/qQHEfrg2rvx6asRqDXwW8E/ab0u6gg+XTJ4hANNhuEG/pjZFbW7YpRTSw==",
   "success": true,
   "projectFilePath": "B:\\Asp.Net\\BookSale\\BookSale.Utility\\BookSale.Utility.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0-rc.1.21452.15\\microsoft.aspnetcore.cryptography.keyderivation.6.0.0-rc.1.21452.15.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.0-rc.1.21452.15\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.0-rc.1.21452.15.nupkg.sha512",
+    "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.0-preview.2.21154.6\\microsoft.aspnetcore.identity.ui.6.0.0-preview.2.21154.6.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.3\\microsoft.aspnetcore.mvc.razor.extensions.6.0.3.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.3\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.3.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -56,6 +57,8 @@
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0-preview.1.22076.8\\microsoft.extensions.dependencyinjection.7.0.0-preview.1.22076.8.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-preview.1.22076.8\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.1.22076.8.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0-preview.2.21154.6\\microsoft.extensions.fileproviders.abstractions.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\6.0.0-preview.2.21154.6\\microsoft.extensions.fileproviders.embedded.6.0.0-preview.2.21154.6.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.0-rc.1.21452.15\\microsoft.extensions.identity.core.6.0.0-rc.1.21452.15.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.0-rc.1.21452.15\\microsoft.extensions.identity.stores.6.0.0-rc.1.21452.15.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0-preview.1.22076.8\\microsoft.extensions.logging.7.0.0-preview.1.22076.8.nupkg.sha512",

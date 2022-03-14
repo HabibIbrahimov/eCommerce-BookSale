@@ -562,3 +562,5 @@ B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Autho
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Metadata.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\BookSale.Utility.dll
+B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\BookSale.Utility.pdb
