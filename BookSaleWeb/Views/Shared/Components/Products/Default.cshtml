@@ -8,7 +8,7 @@
 					 <span class="image">
 					  <img src="@product.ImageUrl" alt="" />
 				       </span>
-					    <a asp-action="Details" asp-route-id="@product.Id">
+					    <a asp-action="Details" asp-route-productId="@product.Id">
 						 <h2>@product.Title</h2>
 						  <h3> by @product.Author</h3>
 						   <p><del>@product.ListPrice.ToString("0.00")</del> 
@@ -16,7 +16,7 @@
 							 </a>
 							  </article>      
 	}
-	</section>			
+</section>			
 								
 							
 							

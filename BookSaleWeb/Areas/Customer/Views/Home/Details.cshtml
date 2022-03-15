@@ -1,7 +1,10 @@
 ﻿@model ShoppingCart
 
 <!-- Main -->
+<form method="post" > 
+	 <input hidden asp-for="ProductId"/>
 					<div id="main">
+						
 						<div class="inner">
 			
 							<div class="container-fluid">
@@ -33,12 +36,12 @@
 							                  	<div class="row">
 								                    <div class="col-sm-6">
 								                      	<div class="form-group">
-								                        	<input asp-for="Count" type="text" name="name" id="name">
+								                        	<input asp-for="Count" class="form-control">
 								                      	</div>
 								                    </div>
 
 								                    <div class="col-sm-6">
-							                      		<input type="submit" class="primary" value="Add to Cart">
+							                      		<input type="submit" class="primary form-control" value="Add to Cart">
 								                    </div>
 													<a class="btn btn-success  "  asp-action="Index">Back to Home</a>
 							                  	</div>
@@ -82,4 +85,4 @@
 
 						</div>
 				 </div>
-					
+</form>
