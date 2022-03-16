@@ -6,7 +6,7 @@
 			<!-- Products -->
 					<article class="style1">
 					 <span class="image">
-					  <img src="@product.ImageUrl" alt="" />
+					  <img src="@product.ImageUrl" alt=""/>
 				       </span>
 					    <a asp-action="Details" asp-route-productId="@product.Id">
 						 <h2>@product.Title</h2>
@@ -14,7 +14,7 @@
 						   <p><del>@product.ListPrice.ToString("0.00")</del> 
 							   <strong>@product.Price100.ToString("0.00")</strong></p>
 							 </a>
-							  </article>      
+					</article>      
 	}
 </section>			
 								
