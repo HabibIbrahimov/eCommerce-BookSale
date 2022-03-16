@@ -17,15 +17,21 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-		@await Component.InvokeAsync("Header");
+		     @await Component.InvokeAsync("Header");
 				<!-- Header End -->
 
 				<!-- Menu -->
 					<nav id="menu">
 						<h2>Menu</h2>
-						
+                             
+                            
 						<partial name="_LoginPartial"/>
 						<ul>
+							 <li class="nav-item">
+                               <a class=nav-link asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                 <i class="bi bi-cart"></i>
+                               </a>
+                             </li>
 							<li><a asp-area="Customer" asp-controller="Home" asp-action="Index" class="active">Home</a></li>
 
 							<li><a href="products.html">Products</a></li>
