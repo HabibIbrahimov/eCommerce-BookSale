@@ -172,10 +172,9 @@ a:hover {
   text-decoration: underline;
 }
 
-a:not([href]):not([tabindex]) {
-  
-  text-decoration: none;
-}
+    a:not([href]):not([tabindex]) {
+        text-decoration: none;
+    }
 
 a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
 
@@ -7644,7 +7643,7 @@ button.bg-dark:focus {
 
 .pl-2,
 .px-2 {
-  padding-left: 0.5rem !important;
+  padding-left: 1.5rem;
 }
 
 .p-3 {
