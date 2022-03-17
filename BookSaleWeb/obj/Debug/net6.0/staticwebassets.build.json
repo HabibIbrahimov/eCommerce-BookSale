@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1D5lK3CnvBPploB5QeGMGXJp6th/rchlefuCceumf+4=",
+  "Hash": "ReU9Xgjk6GFE7r8kZSDSSfvVGz+tT4o8KbOv5wU+l8k=",
   "Source": "BookSaleWeb",
   "BasePath": "_content/BookSaleWeb",
   "Mode": "Default",
@@ -763,6 +763,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\map.jpg"
+    },
+    {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\order.png",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/order.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order.png"
     },
     {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\products\\0c00f550-c4c6-4575-9726-4caf3a6331ac.jpg",
