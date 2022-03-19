@@ -16,6 +16,7 @@ namespace BookSale.DataAccess.Repository.IRepository
         IApplicationUserRepository ApplicationUser { get; }
         IOrderDetailRepository OrderDetail { get; }
         IOrderHeaderRepository OrderHeader { get; }
+        ISliderRepository Slider { get; }
         void Save();
     }
 }

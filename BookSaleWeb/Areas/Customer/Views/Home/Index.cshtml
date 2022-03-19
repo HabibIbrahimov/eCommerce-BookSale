@@ -1,6 +1,18 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home Page";
 }
+<div id="main">
+    @await Component.InvokeAsync("Sliders");
+   
+
+    <h2 style="text-align:center" class="h2">Featured Products</h2>
+    <br />
+    <br />
 <section class="tiles">
 @await Component.InvokeAsync("Products");
 </section>
+<h3 class="text-center"><a>More Books &nbsp;<i class="fa fa-long-arrow-right"></i></a></h3>
+</div>
+
+
