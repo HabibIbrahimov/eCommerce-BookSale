@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<BookSale.Models.Slider>
+
 <div id="main">
 	
    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -9,10 +10,14 @@
 						  </ol>
 						
 						  <div class="carousel-inner">
-		                      @foreach(var slider in Model)
+			             @{int i = 0;}
+			             @foreach(var slider in Model)
 		                 {
-						    <div class="carousel-item active">
-						      <img class="d-block w-100" src="~/images/@slider.ImageUrl">
+				          i++;
+				           
+				            var active = i == 1 ? "active" : "";
+				             <div class="carousel-item @active">  
+									  <img class="d-block w-100" src="~/images/@slider.ImageUrl">
 						    </div>		  
 		                 }
 		                   </div>

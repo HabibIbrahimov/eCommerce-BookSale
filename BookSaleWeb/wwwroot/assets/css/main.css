@@ -158,14 +158,14 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0  2em 0;
 	}
 
 	h1 {
 		font-size: 2.75em;
 		font-weight: 700;
 		line-height: 1.3;
-		margin: 0 0 1em 0;
+		margin: 0  1em 0;
 		letter-spacing: -0.035em;
 	}
 
@@ -1905,7 +1905,7 @@ input, select, textarea {
 /* Actions */
 
 	.m-n {
-		margin-bottom: 0!important;
+		margin-bottom: 0;
 	}
 
 	ul.actions {
