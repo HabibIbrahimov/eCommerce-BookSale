@@ -20,6 +20,9 @@
     <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0-preview.1.22076.8" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.0-preview.1.22116.2" />
     <PackageReference Include="Stripe.net" Version="39.97.0" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+    <PackageReference Include="System.Linq.Queryable" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>

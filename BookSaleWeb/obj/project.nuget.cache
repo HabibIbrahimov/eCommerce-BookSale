@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kle3nKU5DWq7By8kHeNSke3AOiD+quicSe0WQGDBkZJT7voF5lv/DsHL6eLCZBwCsmLNYdsGiDsT2GSY0/7gPQ==",
+  "dgSpecHash": "REzyChlmI3HE0DVMurbMV9BURzOwyccqSPX2OXdW9iNS9Z057Jc7Ho8Py5jpH5bEqL8EJcn15koyzZu8sOrkKg==",
   "success": true,
   "projectFilePath": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\BookSaleWeb.csproj",
   "expectedPackageFiles": [
@@ -145,6 +145,7 @@
     "C:\\Users\\ihebi\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
+    "C:\\Users\\ihebi\\.nuget\\packages\\system.linq.queryable\\4.3.0\\system.linq.queryable.4.3.0.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
