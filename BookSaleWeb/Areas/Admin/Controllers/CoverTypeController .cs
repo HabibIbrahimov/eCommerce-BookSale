@@ -1,11 +1,14 @@
 ﻿using BookSale.DataAccess;
 using BookSale.DataAccess.Repository.IRepository;
 using BookSale.Models;
+using BookSale.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookSaleWeb.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

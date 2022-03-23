@@ -565,3 +565,6 @@ B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\MailKit.dll
+B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\MimeKit.dll
+B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll

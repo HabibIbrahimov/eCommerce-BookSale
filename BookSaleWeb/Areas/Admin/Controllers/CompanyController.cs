@@ -2,12 +2,15 @@
 using BookSale.DataAccess.Repository.IRepository;
 using BookSale.Models;
 using BookSale.Models.ViewModels;
+using BookSale.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BookSaleWeb.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CompanyController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
