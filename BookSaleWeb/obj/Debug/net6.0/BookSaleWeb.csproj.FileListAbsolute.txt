@@ -569,3 +569,4 @@ B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\MailKit.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\MimeKit.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Twilio.dll
