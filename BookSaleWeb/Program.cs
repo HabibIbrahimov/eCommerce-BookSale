@@ -26,6 +26,12 @@ builder.Services.AddAuthentication().AddFacebook(options =>
     options.AppId = "1126153048147254";
     options.AppSecret = "bbda152ca6103ba26dd584c4a8641272";
 });
+builder.Services.AddAuthentication().AddGoogle(options =>
+{
+    options.ClientId = "229647448847-of9sl3nu3isqr9mrvi4tcrbm9qcs6n65.apps.googleusercontent.com";
+    options.ClientSecret = "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";
+});
+
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = $"/Identity/Account/Login";

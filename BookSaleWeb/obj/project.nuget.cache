@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rgZpbEHs5CSIMUyP8XXrExSjwRSyXv46NUK1Je1DizOt3GKnN80fqRgPdKJQjB3GHT6PtZ7ncWsVLc8OHWelcg==",
+  "dgSpecHash": "+7Ny9Csb3s8USDPiO24Ui4xLs/B/j6OycbMhNU161ga1A9onTTYmP9gc+9d04dRF5fFoxHFZFRKCaOXYq/mH8A==",
   "success": true,
   "projectFilePath": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\BookSaleWeb.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\ihebi\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.3\\microsoft.aspnetcore.authentication.facebook.6.0.3.nupkg.sha512",
+    "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.3\\microsoft.aspnetcore.authentication.google.6.0.3.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0-rc.1.21452.15\\microsoft.aspnetcore.cryptography.internal.6.0.0-rc.1.21452.15.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0-rc.1.21452.15\\microsoft.aspnetcore.cryptography.keyderivation.6.0.0-rc.1.21452.15.nupkg.sha512",
     "C:\\Users\\ihebi\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

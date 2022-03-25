@@ -108,9 +108,37 @@ else
                         <div>
                             <p>
                                 @foreach (var provider in Model.ExternalLogins)
+                            {
+                           
+                                @if (provider.Name.ToLower().Contains("facebook"))
                                 {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                    <button type="submit" class="btn btn-block facebook-btn form-control"
+                                            name="provider" value="@provider.Name"
+                                            title="Log in using your @provider.DisplayName account">
+                                       <i class="bi bi-facebook"></i> @provider.DisplayName
+                                    </button>
                                 }
+                                else
+                                {
+                                    @if (provider.Name.ToLower().Contains("google"))
+                                    {
+                                        <button type="submit" class="btn btn-block google-btn form-control"
+                                                name="provider" value="@provider.Name"
+                                                title="Log in using your @provider.DisplayName account">
+                                             <i class="bi bi-google"></i> @provider.DisplayName
+                                        </button>
+                                    }
+                                    else
+                                    {
+                                        <button type="submit" class="btn btn-primary" name="provider"
+                                                value="@provider.Name"
+                                                title="Log in using your @provider.DisplayName account">
+                                        @provider.DisplayName</button>
+                                    }
+                                }
+                         
+                                
+                            }
                             </p>
                         </div>
                     </form>

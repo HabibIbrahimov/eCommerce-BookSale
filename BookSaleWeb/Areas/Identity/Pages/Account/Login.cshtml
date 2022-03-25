@@ -67,10 +67,37 @@
                     <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
                         <div>
                             <p>
-                                @foreach (var provider in Model.ExternalLogins)
-                                {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                }
+                               @foreach (var provider in Model.ExternalLogins)
+                {
+                    @if (provider.Name.ToLower().Contains("facebook"))
+                    {
+                        <button type="submit" class="btn btn-block  form-control"
+                                name="provider" value="@provider.Name"
+                                title="Log in using your @provider.DisplayName account">
+                           <i class="bi bi-facebook"></i> @provider.DisplayName
+                        </button>
+                    }
+                    else
+                    {
+                        @if (provider.Name.ToLower().Contains("google"))
+                        {
+                            <button type="submit" class="btn btn-block  form-control"
+                                    name="provider" value="@provider.Name"
+                                    title="Log in using your @provider.DisplayName account">
+                                <i class="bi bi-google"></i> @provider.DisplayName
+                            </button>
+                        }
+                        else
+                        {
+                            <button type="submit" class="btn btn-primary" name="provider"
+                                    value="@provider.Name"
+                                    title="Log in using your @provider.DisplayName account">
+                                @provider.DisplayName
+                            </button>
+                        }
+                    }
+
+                }
                             </p>
                         </div>
                     </form>
