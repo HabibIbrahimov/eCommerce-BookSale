@@ -16,7 +16,11 @@ namespace BookSale.DataAccess.Repository
         {
             _db = db;
         }
-       
+
+        public List<Product> Include(Func<object, object> p)
+        {
+            throw new NotImplementedException();
+        }
 
         public void Update(Product obj)
         {

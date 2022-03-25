@@ -13,13 +13,21 @@
 	<br />
 	<br />
 	<br />
-    <h2 style="text-align:center" class="h2">Featured Products</h2>
+   
+<div id="main">
+<div class="inner">
+	 <h2 style="text-align:center" class="h2">Featured Products</h2>
     <br />
     <br />
 <section class="tiles">
+	<div class="container">
+		</div>
 @await Component.InvokeAsync("Products")
 </section>
-<h3 class="text-center"><a>More Books &nbsp;<i class="fa fa-long-arrow-right"></i></a></h3>
+<h3 class="text-center"><a asp-controller="Product" asp-action="Index">More Books &nbsp;<i class="fa fa-long-arrow-right"></i></a></h3>
+</div>
+</div>
+
 <br />
 	<h2 class="h2">Testimonials</h2>
 							

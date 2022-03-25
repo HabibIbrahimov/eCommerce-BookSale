@@ -2557,7 +2557,17 @@ input, select, textarea {
 		flex-wrap: wrap;
 		postiion: relative;
 		margin: -2.5em 0 2.5em -2.5em;
+
 	}
+.tiles ul li a {
+	margin-right: 8px;
+	text-transform: uppercase;
+	-webkit-transition: color .3s;
+	transition: color .3s;
+	font-size: 17px;
+	letter-spacing: .1em;
+	color: black;
+}
 
 		.tiles article {
 			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;

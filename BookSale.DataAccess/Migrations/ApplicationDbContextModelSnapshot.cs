@@ -602,7 +602,7 @@ namespace BookSaleWeb.Migrations
             modelBuilder.Entity("BookSale.Models.Product", b =>
                 {
                     b.HasOne("BookSale.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -697,6 +697,11 @@ namespace BookSaleWeb.Migrations
                         .IsRequired();
 
                     b.Navigation("Company");
+                });
+
+            modelBuilder.Entity("BookSale.Models.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }
