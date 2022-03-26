@@ -16,6 +16,9 @@
 		<noscript><link rel="stylesheet" href="~/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+    <div class="loader_bg">
+      <div class="loader"></div>
+    </div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -68,7 +71,7 @@
 
 								<ul>
 									<li><a asp-area="Customer" asp-controller="About" asp-action="Index" >About Us</a></li>
-									<li><a asp-area="Customer" asp-controller="Testimonials" asp-action="Index" >Testimonials</a></li>
+									<li><a asp-area="Customer" asp-controller="Author" asp-action="Index" >Authors</a></li>
 									<li><a asp-area="Customer" asp-controller="Terms" asp-action="Index">Terms</a></li>
 								</ul>
 							</li>
@@ -94,7 +97,7 @@
 			<script src="//cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 		     <script src="https://cdn.tiny.cloud/1/fp271wr4r11h1sfcpx9dzfvy64btf6nlytafubcdrvh7ol7p/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-		    
+		      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 			 @await RenderSectionAsync("Scripts", required: false)
 	</body>
 		  <!-- AOS.js -->
@@ -108,6 +111,13 @@
          mirror: false, // whether elements should animate out while scrolling past them
        });
        </script>
+
+	 
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
 	<div id = "fb-root" ></div> 
 	<script async defer crossorigin = "anonim" src = "https://connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v13.0&appId= 1126153048147254&autoLogAppEvents=1" nonce = "jKvD5Unr" ></script>       
 </html>

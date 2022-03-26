@@ -16,7 +16,7 @@ namespace BookSaleWeb.ViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            IEnumerable<Category> categories = _db.Categories.Take(7).ToList();
+            List<Category> categories = _db.Categories.Take(7).ToList();
             return View(await Task.FromResult(categories));
         }
     }

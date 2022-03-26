@@ -21,6 +21,7 @@ namespace BookSale.DataAccess.Repository.IRepository
         IMessageRepository Message { get; }
         IMessageHeaderRepository MessageHeader { get; }
         IMessageDetailRepository MessageDetail { get; }
+        IAuthorRepository Author { get; }
         void Save();
     }
 }

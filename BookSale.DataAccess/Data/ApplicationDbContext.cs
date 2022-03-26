@@ -24,6 +24,7 @@ namespace BookSale.DataAccess
         public DbSet<Message> Messages { get; set; }
         public DbSet<MessageDetail>MessageDetails { get; set; }
         public DbSet<MessageHeader> MessageHeaders { get; set; }
+        public DbSet<Author> Authors { get; set; }
 
     }
 }

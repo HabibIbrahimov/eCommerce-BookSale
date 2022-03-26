@@ -28,6 +28,7 @@ namespace BookSale.DataAccess.Repository
             Message=new MessageRepository(_db);
             MessageDetail = new MessageDetailRepository(_db);
             MessageHeader = new MessageHeaderRepository(_db);
+            Author = new AuthorRepository(_db);
         }
         public ICategoryRepository Category { get; private set; }
         public ICoverTypeRepository CoverType { get; private set; }
@@ -41,7 +42,8 @@ namespace BookSale.DataAccess.Repository
         public IContactRepository Contact { get; private set; }
         public IMessageRepository Message { get; private set; } 
         public IMessageDetailRepository MessageDetail { get; private set; }
-        public IMessageHeaderRepository MessageHeader { get; private set; }   
+        public IMessageHeaderRepository MessageHeader { get; private set; }
+        public IAuthorRepository Author { get; private set; }
         public void Save()
         {
             _db.SaveChanges();

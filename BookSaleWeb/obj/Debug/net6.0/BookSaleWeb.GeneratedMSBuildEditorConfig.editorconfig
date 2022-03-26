@@ -103,8 +103,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[B:/Asp.Net/BookSale/BookSaleWeb/Areas/Customer/Views/Authors/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQXV0aG9yc1xJbmRleC5jc2h0bWw=
+[B:/Asp.Net/BookSale/BookSaleWeb/Areas/Customer/Views/Author/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQXV0aG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [B:/Asp.Net/BookSale/BookSaleWeb/Areas/Customer/Views/Cart/Index.cshtml]
