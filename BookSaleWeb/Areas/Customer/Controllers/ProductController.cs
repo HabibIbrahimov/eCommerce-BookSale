@@ -4,6 +4,7 @@ using BookSale.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using X.PagedList;
 
 namespace BookSaleWeb.Areas.Customer.Controllers
 {
@@ -20,9 +21,10 @@ namespace BookSaleWeb.Areas.Customer.Controllers
 
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int page=1)
         {
-            return View();
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
+            return View(productList.ToPagedList(page,3));
         }
         public IActionResult Details(int productId)
         {

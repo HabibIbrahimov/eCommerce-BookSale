@@ -94,6 +94,10 @@
             "System.Linq.Queryable": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -201,6 +205,10 @@
             "System.Linq.Queryable": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -320,6 +328,10 @@
             "System.Linq.Queryable": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -450,6 +462,10 @@
             "Twilio": {
               "target": "Package",
               "version": "[5.73.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [

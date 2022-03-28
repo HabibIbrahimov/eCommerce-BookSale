@@ -1,4 +1,7 @@
-﻿<div id="main">
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core
+@model IPagedList<BookSale.Models.Product>
+<div id="main">
 <div class="inner">
 <h1>Products</h1>
 <br />
@@ -23,8 +26,25 @@
                        </div>
                 </div>
  </div>
-@await Component.InvokeAsync("Products")
-
+@foreach(var product in Model)
+	{
+			<!-- Products -->
+					<article class="style1">
+					 <span class="image">
+					  <img src="@product.ImageUrl" alt=""/>
+				       </span>
+					    <a asp-action="Details" asp-route-productId="@product.Id">
+						 <h2>@product.Title</h2>
+						  <h3> by @product.Author</h3>
+						   <p><del>@product.ListPrice.ToString("0.00")</del> 
+							   <strong>@product.Price100.ToString("0.00")</strong></p>
+							 </a>
+					</article>      
+	}
+	
 </section>
+<div  style="margin-left:500px;font-size:25px">
+@Html.PagedListPager((IPagedList)Model,page=>Url.Action("Index",new{page}))
+</div>
 </div>
 </div>

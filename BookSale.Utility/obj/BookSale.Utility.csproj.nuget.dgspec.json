@@ -102,6 +102,10 @@
             "System.Linq.Queryable": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [

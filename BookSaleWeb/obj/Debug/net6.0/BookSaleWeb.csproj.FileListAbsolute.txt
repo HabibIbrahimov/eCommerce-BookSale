@@ -571,3 +571,6 @@ B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Twilio.dll
 B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\JetBrains.Annotations.dll
+B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\X.PagedList.dll
+B:\Asp.Net\BookSale\BookSaleWeb\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
