@@ -20,5 +20,8 @@ namespace BookSale.DataAccess
         public DbSet<OrderHeader> OrderHeaders { get; set; }
         public DbSet<OrderDetail> OrderDetail { get; set; }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Message> Messages { get; set; }
+
     }
 }

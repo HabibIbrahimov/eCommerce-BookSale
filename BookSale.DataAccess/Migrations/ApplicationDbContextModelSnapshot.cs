@@ -114,6 +114,19 @@ namespace BookSaleWeb.Migrations
                     b.ToTable("Companies");
                 });
 
+            modelBuilder.Entity("BookSale.Models.Contact", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Contacts");
+                });
+
             modelBuilder.Entity("BookSale.Models.CoverType", b =>
                 {
                     b.Property<int>("Id")
@@ -130,6 +143,33 @@ namespace BookSaleWeb.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("CoverTypes");
+                });
+
+            modelBuilder.Entity("BookSale.Models.Message", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Messages");
                 });
 
             modelBuilder.Entity("BookSale.Models.OrderDetail", b =>
@@ -567,6 +607,17 @@ namespace BookSaleWeb.Migrations
                     b.HasIndex("CompanyId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
+                });
+
+            modelBuilder.Entity("BookSale.Models.Message", b =>
+                {
+                    b.HasOne("BookSale.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("BookSale.Models.OrderDetail", b =>
