@@ -10,22 +10,7 @@
 	</div>
 <br />
 <section class="tiles">
-  <div class="container">
-                <div class="row pt-5">
-                    <div class="col-12 d-flex justify-content-between">
-                       <ul class="category  d-md-flex list-unstyled">
-                            <li><a href="" data-id="">All</a></li>
-                            <li><a href="" data-id="">Action and Adventure</a></li>
-                            <li><a href="" data-id="">Classics</a></li>
-                            <li><a href="" data-id="">Detective and Mystery</a></li>
-                            <li><a href="" data-id="">Fantasy</a></li>
-                            <li><a href="" data-id="">Historical Fiction</a></li>
-                            <li><a href="" data-id="">Horror</a></li>
-                            <li><a href="" data-id="">Romance</a></li>
-                        </ul>
-                       </div>
-                </div>
- </div>
+ @await Component.InvokeAsync("Categories")
 @foreach(var product in Model)
 	{
 			<!-- Products -->

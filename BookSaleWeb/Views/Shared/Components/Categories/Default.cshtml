@@ -1,0 +1,15 @@
+﻿ @model IEnumerable<BookSale.Models.Category>
+
+<div class="container">
+                <div class="row pt-5">
+                    <div class="col-12 d-flex justify-content-between">
+                       <ul class="category  d-md-flex list-unstyled">
+                            <li><a href="" data-id="">All</a></li>
+                            @foreach (var category in Model)
+                                {
+                                    <li><a href="" data-id="@category.Name">@category.Name</a></li>
+                                }
+                        </ul>
+                       </div>
+                </div>
+ </div>

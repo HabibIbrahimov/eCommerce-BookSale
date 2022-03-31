@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2vryACi0ff00zcz0AD2I0oW7oSHOrPG5Ud9e0DmGf6k=",
+  "Hash": "Dxz87wJ9l1pdZUJ0JbF7+R0eJGXJ/Ts47gTKlzXHXp4=",
   "Source": "BookSaleWeb",
   "BasePath": "_content/BookSaleWeb",
   "Mode": "Default",
@@ -867,23 +867,6 @@
       "OriginalItemSpec": "wwwroot\\images\\product-6-720x480.jpg"
     },
     {
-      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\products\\0c00f550-c4c6-4575-9726-4caf3a6331ac.jpg",
-      "SourceId": "BookSaleWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
-      "BasePath": "_content/BookSaleWeb",
-      "RelativePath": "images/products/0c00f550-c4c6-4575-9726-4caf3a6331ac.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\0c00f550-c4c6-4575-9726-4caf3a6331ac.jpg"
-    },
-    {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\products\\15e01967-693e-4952-bba1-c6381a94631a.jpg",
       "SourceId": "BookSaleWeb",
       "SourceType": "Discovered",
@@ -950,6 +933,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\587ff861-bd64-4b4c-973a-cbd7614ceb68.jpg"
+    },
+    {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\products\\b7374b60-a212-4db2-ab6f-acc716ad643d.jpg",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/products/b7374b60-a212-4db2-ab6f-acc716ad643d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\b7374b60-a212-4db2-ab6f-acc716ad643d.jpg"
     },
     {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\products\\c14e69c2-fcd5-4d5a-891f-efd3fb245aea.jpg",

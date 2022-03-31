@@ -15,7 +15,7 @@ namespace BookSaleWeb.ViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            List<Product> products = _db.Products.Include(p => p.Category).Take(9).ToList();
+            List<Product> products = _db.Products.Include(p => p.Category).Take(6).ToList();
             return View (await Task.FromResult(products));
         }
     }
