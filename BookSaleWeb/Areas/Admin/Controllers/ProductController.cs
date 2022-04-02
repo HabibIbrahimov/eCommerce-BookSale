@@ -27,7 +27,7 @@ namespace BookSaleWeb.Controllers
             return View();
         }
 
-        
+
 
         //GET
         public IActionResult Upsert(int? id)
@@ -112,12 +112,12 @@ namespace BookSaleWeb.Controllers
         }
 
 
-       
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
         {
-            var productList = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType") ;
+            var productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return Json(new { data = productList });
         }
 

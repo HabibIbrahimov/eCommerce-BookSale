@@ -26,16 +26,15 @@
                 <div class="form-floating">
                     <input asp-for="Email" class="form-control" disabled />
                     <label asp-for="Email" class="form-label"></label>
-                  <button style="width:max-content;height:min-content" id="email-verification" class="btn btn-primary" type="submit" asp-page-handler="SendVerificationEmail">Send verification email</button>
+                  <button  id="email-verification" class="btn btn-link" type="submit" asp-page-handler="SendVerificationEmail">Send verification email</button>
                 </div>
-                <br />
             }
             <div class="form-floating">
                 <input asp-for="Input.NewEmail" class="form-control" autocomplete="email" aria-required="true" />
                 <label asp-for="Input.NewEmail" class="form-label"></label>
                 <span asp-validation-for="Input.NewEmail" class="text-danger"></span>
             </div>
-            <button id="change-email-button" type="submit" asp-page-handler="ChangeEmail" class="btn btn-block">Change email</button>
+            <button id="change-email-button" type="submit" asp-page-handler="ChangeEmail" class="btn btn-primary">Change email</button>
         </form>
     </div>
 </div>

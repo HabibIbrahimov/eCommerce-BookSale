@@ -4,10 +4,10 @@
 <form method="post">
     <input hidden asp-for="ProductId" />
         <div class="card  container pt-1">
-            <div class="card-header  text-light ml-0  row " style="background-color:white!important;">
+            <div class="card-header  text-light ml-0  row " style="background-color:white!important">
                 <div class="col-12 col-md-6">
                     <h1 style="margin-left:1px" class="text-black-50">@Model.Product.Title</h1>
-                    <h3 class="text-warning">by @Model.Product.Author</h3>
+                    <h3 class="text-dark">by @Model.Product.Author</h3>
                 </div>
                 <div  class="col-12 col-md-6 text-end pt-4">
                     <span class="badge bg-dark pt-2" style="height:30px;margin-left:250px">@Model.Product.CoverType.Name</span>
@@ -59,7 +59,7 @@
                             <br />
                             <div class="row pl-2">
                                 <div class="col-2 text-primary"><h4>Count</h4></div>
-                                <div class="col-10"><input asp-for="Count" class="form-control"  /></div>
+                                <div class="col-5"><input asp-for="Count" class="form-control"  /></div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 offset-lg-1 text-center">
@@ -68,13 +68,13 @@
                     </div>
                 </div>
             </div>
-            <div class="card-footer">
+            <div class="card-footer" style="background-color:white!important;">
                 <div class="row">
                     <div class="col-12 col-md-6 pb-1">
-                        <a class="btn btn-danger form-control " style="height:50px;" asp-action="Index">Back to Home</a>
+                        <a class="btn btn-dark form-control " style="height:50px;" asp-action="Index">Back to Home</a>
                     </div>
                     <div class="col-12 col-md-6 pb-1">
-                        <button type="submit" value="Add to Cart" class="btn btn-block form-control" style="height:50px;">Add to Cart</button>
+                        <button type="submit" value="Add to Cart" class="btn btn-success form-control" style="height:50px;">Add to Cart</button>
                     </div>
                 </div>
             </div>

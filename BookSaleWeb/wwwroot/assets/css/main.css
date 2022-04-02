@@ -140,7 +140,7 @@ input, select, textarea {
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
 		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+		font-size:large!important;
 	}
 
 		a:hover {
@@ -2437,7 +2437,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #585858;
+		box-shadow: inset 0 0 0;
 		color: #585858;
 		cursor: pointer;
 		display: inline-block;

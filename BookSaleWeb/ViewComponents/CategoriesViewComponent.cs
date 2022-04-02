@@ -5,20 +5,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BookSaleWeb.ViewComponents
 {
-   
-        public class CategoriesViewComponent : ViewComponent
+
+    public class CategoriesViewComponent : ViewComponent
+    {
+        private readonly ApplicationDbContext _db;
+
+        public CategoriesViewComponent(ApplicationDbContext db)
         {
-            private readonly ApplicationDbContext _db;
-
-            public CategoriesViewComponent(ApplicationDbContext db)
-            {
-                _db = db;
-            }
-            public async Task<IViewComponentResult> InvokeAsync()
-            {
-            IEnumerable<Category> categories = _db.Categories.Include(p => p.Products).Take(7).ToList();
-            return View(await Task.FromResult(categories));
-
-            }
+            _db = db;
         }
+        public async Task<IViewComponentResult> InvokeAsync()
+        {
+            IEnumerable<Category> categories = _db.Categories.Take(7).ToList();
+            return View(await Task.FromResult(categories));
+        }
+    }
 }

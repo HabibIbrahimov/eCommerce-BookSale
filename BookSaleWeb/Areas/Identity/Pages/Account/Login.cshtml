@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div>
-                    <button id="login-submit" type="submit" class="btn btn-block">Log in</button>
+                    <button id="login-submit" type="submit" class=" w-100 btn btn-dark">Log in</button>
                 </div>
                 <div style="margin-left:-38px">
                     <p>
@@ -71,7 +71,7 @@
                 {
                     @if (provider.Name.ToLower().Contains("facebook"))
                     {
-                        <button type="submit" class="btn btn-block  form-control"
+                        <button type="submit" class="btn btn-dark  form-control"
                                 name="provider" value="@provider.Name"
                                 title="Log in using your @provider.DisplayName account">
                            <i class="bi bi-facebook"></i> @provider.DisplayName
@@ -81,7 +81,7 @@
                     {
                         @if (provider.Name.ToLower().Contains("google"))
                         {
-                            <button type="submit" class="btn btn-block  form-control"
+                            <button type="submit" class="btn btn-light  form-control"
                                     name="provider" value="@provider.Name"
                                     title="Log in using your @provider.DisplayName account">
                                 <i class="bi bi-google"></i> @provider.DisplayName

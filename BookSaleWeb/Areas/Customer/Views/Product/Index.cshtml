@@ -9,6 +9,12 @@
 	  <img src="~/images/banner-image-6-1920x500.jpg" class="img-fluid" alt="" />
 	</div>
 <br />
+<ul id="search-list" class="list-unstyled py-3">
+  <li class="d-flex px-3">
+   <input id="input-search" type="text" placeholder="Search">
+    <i class="bi bi-search" id="search"></i>
+     </li>
+</ul>  
 <section class="tiles">
  @await Component.InvokeAsync("Categories")
 @foreach(var product in Model)

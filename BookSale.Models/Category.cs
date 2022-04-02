@@ -13,6 +13,6 @@ namespace BookSale.Models
         [Range(1, 100, ErrorMessage = "Display Order must be between 1 and 100 only!!")]
         public int DisplayOrder { get; set; }
         public DateTime CreatedDateTime { get; set; } = DateTime.Now;
-        public ICollection<Product> Products { get; set; }
+        //public ICollection<Product> Products { get; set; }
     }
 }

@@ -28,6 +28,14 @@ namespace BookSaleWeb.Controllers
             return View(productList);
         }
 
+        public IActionResult Search(string search)
+        {
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType")
+             .Where(p => p.Title.ToLower().Contains(search.ToLower()))
+             .OrderByDescending(p => p.Id).Take(10).ToList();
+            return PartialView("_SearchPartial", productList);
+        }
+
 
         public IActionResult Details(int productId)
         {

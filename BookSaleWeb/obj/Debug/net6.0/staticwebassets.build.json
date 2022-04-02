@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dxz87wJ9l1pdZUJ0JbF7+R0eJGXJ/Ts47gTKlzXHXp4=",
+  "Hash": "4GHfL3mHdQLGAo6Gm+HE+8UCc20EZVjtvaa9MvTlV9o=",
   "Source": "BookSaleWeb",
   "BasePath": "_content/BookSaleWeb",
   "Mode": "Default",
@@ -1052,6 +1052,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\product.js"
+    },
+    {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\js\\search.js",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "js/search.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\search.js"
     },
     {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\js\\site.js",

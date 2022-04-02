@@ -7,7 +7,6 @@
 		<title>Online Book Store Website</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="~/css/bootswatch.css" />
 		<link rel="stylesheet" href="~/assets/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="~/assets/css/main.css" asp-append-version="true"/>
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
@@ -22,6 +21,8 @@
 				<!-- Header -->
 		     @await Component.InvokeAsync("Header")
 				<!-- Header End -->
+				 
+			
 
 				<!-- Menu -->
 					<nav id="menu">
@@ -88,10 +89,12 @@
 			<script src="~/assets/js/jquery.scrolly.min.js"></script>
 			<script src="~/assets/js/jquery.scrollex.min.js"></script>
 			<script src="~/assets/js/main.js"></script>
+			<script src="~/js/search.js"></script>
 			<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 			<script src="//cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-			 <script src="https://cdn.tiny.cloud/1/fp271wr4r11h1sfcpx9dzfvy64btf6nlytafubcdrvh7ol7p/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+		     <script src="https://cdn.tiny.cloud/1/fp271wr4r11h1sfcpx9dzfvy64btf6nlytafubcdrvh7ol7p/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+			
 			 @await RenderSectionAsync("Scripts", required: false)
 	</body>
 </html>
