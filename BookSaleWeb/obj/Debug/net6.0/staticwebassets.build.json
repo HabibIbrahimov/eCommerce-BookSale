@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4GHfL3mHdQLGAo6Gm+HE+8UCc20EZVjtvaa9MvTlV9o=",
+  "Hash": "lfvek369m9TUQBZs8yvBuMGBglttksDVNpKI7bO8AVk=",
   "Source": "BookSaleWeb",
   "BasePath": "_content/BookSaleWeb",
   "Mode": "Default",
@@ -714,6 +714,40 @@
       "OriginalItemSpec": "wwwroot\\images\\blog-fullscreen-1-1920x700.jpg"
     },
     {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\henry-be-lc7xcWebECc-unsplash.jpg",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/henry-be-lc7xcWebECc-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\henry-be-lc7xcWebECc-unsplash.jpg"
+    },
+    {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\josh-felise-a7HJsX8HiuM-unsplash.jpg",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/josh-felise-a7HJsX8HiuM-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\josh-felise-a7HJsX8HiuM-unsplash.jpg"
+    },
+    {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\logo.jpg",
       "SourceId": "BookSaleWeb",
       "SourceType": "Discovered",
@@ -746,6 +780,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\map.jpg"
+    },
+    {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\olia-gozha-J4kK8b9Fgj8-unsplash.jpg",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/olia-gozha-J4kK8b9Fgj8-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\olia-gozha-J4kK8b9Fgj8-unsplash.jpg"
     },
     {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\order.png",
@@ -969,6 +1020,23 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\c14e69c2-fcd5-4d5a-891f-efd3fb245aea.jpg"
     },
     {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\serge-kutuzov-HCBmCsaF0GY-unsplash.jpg",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/serge-kutuzov-HCBmCsaF0GY-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\serge-kutuzov-HCBmCsaF0GY-unsplash.jpg"
+    },
+    {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\slider-image-1-1920x700.jpg",
       "SourceId": "BookSaleWeb",
       "SourceType": "Discovered",
@@ -1001,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\slider-image-3-1920x700.jpg"
+    },
+    {
+      "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\images\\thought-catalog-o0Qqw21-0NI-unsplash.jpg",
+      "SourceId": "BookSaleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\",
+      "BasePath": "_content/BookSaleWeb",
+      "RelativePath": "images/thought-catalog-o0Qqw21-0NI-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\thought-catalog-o0Qqw21-0NI-unsplash.jpg"
     },
     {
       "Identity": "B:\\Asp.Net\\BookSale\\BookSaleWeb\\wwwroot\\js\\company.js",
