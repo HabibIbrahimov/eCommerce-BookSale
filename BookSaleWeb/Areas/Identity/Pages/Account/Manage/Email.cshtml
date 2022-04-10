@@ -4,7 +4,8 @@
     ViewData["Title"] = "Manage Email";
     ViewData["ActivePage"] = ManageNavPages.Email;
 }
-
+<div class="main">
+  <div class="inner">
 <h3 style="margin-left:450px">@ViewData["Title"]</h3>
 <partial name="_StatusMessage" for="StatusMessage" />
 <div style="margin-left:300px" class="row">
@@ -34,11 +35,12 @@
                 <label asp-for="Input.NewEmail" class="form-label"></label>
                 <span asp-validation-for="Input.NewEmail" class="text-danger"></span>
             </div>
-            <button id="change-email-button" type="submit" asp-page-handler="ChangeEmail" class="btn btn-primary">Change email</button>
+            <button id="change-email-button" type="submit" asp-page-handler="ChangeEmail" class="w-100 btn btn-primary">Change email</button>
         </form>
     </div>
 </div>
-
+</div>
+</div>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

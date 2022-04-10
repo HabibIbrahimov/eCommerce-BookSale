@@ -1,11 +1,96 @@
-﻿@model BookSale.Models.ViewModels.ContactVM
-<div id="main">
-	<div class="inner">
-						<h1>Contact Us</h1>
-						<br />
-                        <span> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14449.851667933557!2d49.96069660728688!3d40.41533723979315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030624b6a5c7475%3A0xf8770727f14ffa1e!2sAyg%C3%BCn%20Mall!5e0!3m2!1sen!2s!4v1644591425527!5m2!1sen!2s" 
-						 width="1180" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></span>							
-					 <br />
-		    			 <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-	</div>						
+﻿<div class="main">
+<div class="inner">
+   
+<section class="contact-page pt-20">
+       		 <span> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14449.851667933557!2d49.96069660728688!3d40.41533723979315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030624b6a5c7475%3A0xf8770727f14ffa1e!2sAyg%C3%BCn%20Mall!5e0!3m2!1sen!2s!4v1644591425527!5m2!1sen!2s" 
+						 width="1180" height="450"  allowfullscreen="" loading="lazy"></iframe></span>
+                         <br />
+                         <br />
+        <div class="container-fluid custom-container">
+            <div class="row">
+                <div class="col-lg-7 col-xl-8">
+                    <div class="contact-form">
+                        <h3>Contact</h3>
+                        <form id="contact-form"  method="POST">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="single-form">
+                                        <input type="text" name="name" placeholder="Your Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="single-form">
+                                        <input type="email" name="email" placeholder="Your Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="single-form">
+                                        <input type="text" name="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="single-form">
+                                        <textarea name="message" placeholder="Your Message"></textarea>
+                                    </div>
+                                </div>
+                                <p class="form-message"></p>
+                                <br />
+                                <div class="col-md-12">
+                                    <div class="single-form">
+                                        <button class="main-btn main-btn-2">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-4">
+                    <div class="contact-info mt-30">
+                        <h4 class="title">Contact Us</h4>
+                        <p class="text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+
+                        <ul class="contact-info-block">
+                           
+                                <div class="single-info">
+                                    <div class="info-icon-title d-flex align-item-center">
+                                        <div class="info-icon">
+                                           <i class="bi bi-geo-alt"></i>
+                                        </div>
+                                        <h5 class="info-title media-body">Address</h5>
+                                    </div>
+                                    <p style="margin-top:-20px">123 Main Street, Anytown, CA 12345 – USA</p>
+                                </div>
+                           
+                            
+                                <div class="single-info">
+                                    <div class="info-icon-title d-flex align-item-center">
+                                        <div class="info-icon">
+                                           <i class="bi bi-telephone"></i>
+                                        </div>
+                                        <h5 class="info-title media-body">Phone</h5>
+                                    </div>
+                                    <p style="margin-top:-20px">Mobile: (08) 123 456 789</p>
+                                    <p>Hotline: 1009 678 456</p>
+                                </div>
+                           
+                            
+                                <div class="single-info">
+                                    <div class="info-icon-title d-flex align-item-center">
+                                        <div class="info-icon">
+                                           <i class="bi bi-envelope"></i>
+                                        </div>
+                                        <h5 class="info-title media-body">Email</h5>
+                                    </div>
+                                    <p style="margin-top:-20px">yourmail@domain.com</p>
+                                    <p>support@hastech.company</p>
+                                </div>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>  
 </div>
+<br />

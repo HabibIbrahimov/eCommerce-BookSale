@@ -11,25 +11,45 @@ namespace BookSaleWeb.Areas.Customer.Controllers
     [Area("Customer")]
     public class ContactController : Controller
     {
-        private readonly ApplicationDbContext _db;
-        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ILogger<ContactController> _logger;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public ContactController(ApplicationDbContext db)
+        public ContactController(ILogger<ContactController> logger,IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _logger = logger;
+            _unitOfWork = unitOfWork;
         }
         public async Task<IActionResult> Index()
         {
-            
-            ContactVM contactVM = new ContactVM();
-            if (User.Identity.IsAuthenticated)
-            {
-                contactVM.User = await _userManager.FindByIdAsync(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value);
-
-            }
-            return View(contactVM);
+          
+            return View();
         }
 
-       
+        [HttpPost]
+        public IActionResult Message([FromForm] Message message)
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                Message newMessage = new Message();
+
+                newMessage.UserId = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value;
+                newMessage.Title = message.Title;
+                newMessage.Description = message.Description;
+                _unitOfWork.Message.Add(newMessage);
+
+                _unitOfWork.Save();
+
+            }
+
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+
+
+            return Ok(new { Message = "Success your send message" });
+        }
+
     }
 }

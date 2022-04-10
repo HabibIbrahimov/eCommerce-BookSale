@@ -11,7 +11,7 @@
                 </div>
                 <div  class="col-12 col-md-6 text-end pt-4">
                     <span class="badge bg-dark pt-2" style="height:30px;margin-left:250px">@Model.Product.CoverType.Name</span>
-                    <span class="badge bg-dark pt-2" style="height:30px;">@Model.Product.Category.Name</span>
+                    <span class="badge bg-success pt-2" style="height:30px;">@Model.Product.Category.Name</span>
                 </div>
             </div>
             <div class="card-body row container">
@@ -19,10 +19,10 @@
                     <div class="row">
                         <div class="col-8 col-lg-8">
 
-                            <div class="row pl-2">
+                            <div class="row pl-5">
                                 <h5 class="text-muted">ISBN : @Model.Product.ISBN</h5>
                             </div>
-                            <div class="row pl-2">
+                            <div class="row pl-5">
                                 <h5 class="text-muted pb-2">List Price: <strike>@Model.Product.ListPrice.ToString("c")</strike></h5>
                             </div>
                             <div class="row text-center pl-5">

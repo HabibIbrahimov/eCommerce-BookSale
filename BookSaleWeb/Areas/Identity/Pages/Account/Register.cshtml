@@ -1,6 +1,10 @@
 ﻿@page
 @using BookSale.Utility
 @model RegisterModel
+
+
+<div class="main">
+  <div class="inner">
 @{
     ViewData["Title"] = "Register";
 }
@@ -12,8 +16,6 @@ else
 {
     <h1 class="pt-4">@ViewData["Title"]</h1>
 }
-
-
 <div style="margin-left:300px" class="row ">
     <div class="col-md-6">
         <form id="registerForm" class="row" asp-route-returnUrl="@Model.ReturnUrl" method="post">
@@ -147,7 +149,8 @@ else
     </div>
     }
 </div>
-
+</div>
+</div>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
     <script>

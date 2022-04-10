@@ -24,7 +24,7 @@ namespace BookSaleWeb.Areas.Customer.Controllers
         public IActionResult Index(int page=1)
         {
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
-            return View(productList.ToPagedList(page,3));
+            return View(productList.ToPagedList(page,6));
         }
         public IActionResult Details(int productId)
         {
