@@ -1,9 +1,11 @@
 ﻿@model BookSale.Models.ViewModels.ProductVM
+<div class=main>
+<div class="inner">
 <form method="post" asp-action="Upsert" enctype="multipart/form-data">
 	<input asp-for="Product.Id" hidden />
 	<input asp-for="Product.ImageUrl" hidden />
 
-	<div class="row">
+	<div class="row" style="margin-left:80px">
 		<div class="col-10">
 			<div class="border p-3 mt-4 row">
 		<div class="col-12 pb-2">
@@ -93,13 +95,9 @@
 		</div>
 	</div>
 
-	
-
-
-
-
-
 </form>
+</div>
+</div>
 
 @section Scripts{
 	@{
@@ -108,11 +106,8 @@
 <script>
 	  tinymce.init({
       selector: 'textarea',
-      plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
-      toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table',
+      plugins: 'advlist autolink lists link image charmap preview anchor pagebreak',
       toolbar_mode: 'floating',
-      tinycomments_mode: 'embedded',
-      tinycomments_author: 'Author name',
     });
 	function ValidateInput(){
 		if(document.getElementById("uploadBox").value==""){

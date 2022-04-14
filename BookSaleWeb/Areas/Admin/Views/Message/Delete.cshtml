@@ -1,0 +1,30 @@
+﻿@model Message
+<div class=main>
+<div class="inner">
+<form method="post" asp-action="Delete">
+	<input asp-for="Id" hidden />
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Delete Message</h2>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Title"></label>
+			<input asp-for="Title" disabled class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Description"></label>
+			<input asp-for="Description" disabled class="form-control" />
+		</div>
+		<button type="submit" class="btn btn-danger">Delete</button>
+		<a asp-controller="Message" asp-action="Index" class="btn btn-secondary">
+			Back to List
+		</a>
+	</div>
+</form>
+</div>
+</div>
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

@@ -32,7 +32,40 @@ namespace BookSaleWeb.Controllers
             return View(messages);
         }
 
-       
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var messageFromDbFirst = _unitOfWork.Message.GetFirstOrDefault(u => u.Id == id);
+
+            if (messageFromDbFirst == null)
+            {
+                return NotFound();
+            }
+
+            return View(messageFromDbFirst);
+        }
+
+        //POST
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePOST(int? id)
+        {
+            var obj = _unitOfWork.Message.GetFirstOrDefault(u => u.Id == id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            _unitOfWork.Message.Remove(obj);
+            _unitOfWork.Save();
+            TempData["success"] = "Message deleted successfully";
+            return RedirectToAction("Index");
+
+        }
+
 
     }
 }
