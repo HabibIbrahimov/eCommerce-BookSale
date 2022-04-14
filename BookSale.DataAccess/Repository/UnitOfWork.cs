@@ -26,6 +26,8 @@ namespace BookSale.DataAccess.Repository
             Slider = new SliderRepository(_db);
             Contact = new ContactRepository(_db);
             Message=new MessageRepository(_db);
+            MessageDetail = new MessageDetailRepository(_db);
+            MessageHeader = new MessageHeaderRepository(_db);
         }
         public ICategoryRepository Category { get; private set; }
         public ICoverTypeRepository CoverType { get; private set; }
@@ -38,6 +40,8 @@ namespace BookSale.DataAccess.Repository
         public ISliderRepository Slider { get; private set; }
         public IContactRepository Contact { get; private set; }
         public IMessageRepository Message { get; private set; } 
+        public IMessageDetailRepository MessageDetail { get; private set; }
+        public IMessageHeaderRepository MessageHeader { get; private set; }   
         public void Save()
         {
             _db.SaveChanges();

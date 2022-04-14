@@ -172,6 +172,56 @@ namespace BookSaleWeb.Migrations
                     b.ToTable("Messages");
                 });
 
+            modelBuilder.Entity("BookSale.Models.MessageDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("MessageId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MessageId");
+
+                    b.ToTable("MessageDetails");
+                });
+
+            modelBuilder.Entity("BookSale.Models.MessageHeader", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("ApplicationUserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ApplicationUserId1")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId1");
+
+                    b.ToTable("MessageHeaders");
+                });
+
             modelBuilder.Entity("BookSale.Models.OrderDetail", b =>
                 {
                     b.Property<int>("Id")
@@ -620,6 +670,26 @@ namespace BookSaleWeb.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("BookSale.Models.MessageDetail", b =>
+                {
+                    b.HasOne("BookSale.Models.OrderHeader", "MessageHeader")
+                        .WithMany()
+                        .HasForeignKey("MessageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("MessageHeader");
+                });
+
+            modelBuilder.Entity("BookSale.Models.MessageHeader", b =>
+                {
+                    b.HasOne("BookSale.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserId1");
+
+                    b.Navigation("ApplicationUser");
+                });
+
             modelBuilder.Entity("BookSale.Models.OrderDetail", b =>
                 {
                     b.HasOne("BookSale.Models.OrderHeader", "OrderHeader")
@@ -653,7 +723,7 @@ namespace BookSaleWeb.Migrations
             modelBuilder.Entity("BookSale.Models.Product", b =>
                 {
                     b.HasOne("BookSale.Models.Category", "Category")
-                        .WithMany("Products")
+                        .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -748,11 +818,6 @@ namespace BookSaleWeb.Migrations
                         .IsRequired();
 
                     b.Navigation("Company");
-                });
-
-            modelBuilder.Entity("BookSale.Models.Category", b =>
-                {
-                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

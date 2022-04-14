@@ -1,4 +1,5 @@
-﻿<div class="main">
+﻿@model BookSale.Models.ViewModels.ContactVM
+<div class="main">
 <div class="inner">
    
 <section class="contact-page pt-20">
@@ -15,22 +16,36 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="single-form">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <input type="text" asp-for="@Model.User.Name" name="FullName" placeholder="Your Name">
+                                    }
+                                    else
+                                    {
                                         <input type="text" name="name" placeholder="Your Name">
+                                    }
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="single-form">
+                                        @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <input type="email" asp-for="@Model.User.Email" name="Email" placeholder="Your Email">
+                                    }
+                                    else
+                                    {
                                         <input type="email" name="email" placeholder="Your Email">
+                                    }
                                     </div>
                                 </div>
                                 <div class="col-md-11">
                                     <div class="single-form">
-                                        <input type="text" name="subject" placeholder="Subject">
+                                       <input type="text" asp-for="@Model.Message.Title" name="Title" placeholder="Subject">
                                     </div>
                                 </div>
                                 <div class="col-md-11">
                                     <div class="single-form">
-                                        <textarea name="message" placeholder="Your Message"></textarea>
+                                         <textarea asp-for="@Model.Message.Description" name="Description" placeholder="Your Message"></textarea>
                                     </div>
                                 </div>
                                 <p class="form-message"></p>
@@ -94,3 +109,37 @@
 </div>  
 </div>
 <br />
+
+@section Scripts{
+
+   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function () {
+            $("#contact-form").submit(function (e) {
+                e.preventDefault();
+                let formData = {
+                    Title: $("#Message_Title").val(),
+                    Description: $("#Message_Description").val(),
+                };
+                $.ajax({
+                    url: "/customer/contact/message",
+                    type: "post",
+                    data: formData,
+                    success: function (response) {
+                        Swal.fire({
+                            position: 'top',
+                            icon: 'success',
+                            title: response.message,
+                            showConfirmButton: false,
+                            timer: 1500
+                        }).then(function (result) {
+                            $("#Message_Title").val("");
+                            $("#Message_Description").val("");
+                        })
+                    },
+                    error: function (error) { }
+                })
+            })
+        })
+    </script>
+}

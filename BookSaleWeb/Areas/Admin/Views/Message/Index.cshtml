@@ -1,0 +1,44 @@
+﻿@model IEnumerable<BookSale.Models.Message>
+<div class=main>
+<div class="inner">
+    <h1>Messages</h1>
+    <br />
+<table  id="message" class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.UserName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                     @Html.DisplayFor(modelItem => item.User.UserName)
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
+</div>
